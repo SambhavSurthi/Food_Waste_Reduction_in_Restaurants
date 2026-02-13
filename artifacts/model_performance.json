@@ -1,0 +1,81 @@
+{
+    "Random Forest": {
+        "r2_score_test": 0.5322587793058752,
+        "r2_score_train": 0.6731520671385199,
+        "rmse": 32.363467390773444,
+        "mae": 22.345343617475105,
+        "mape": 0.33776261857204476,
+        "explained_variance": 0.5350938840668259,
+        "best_params": {
+            "estimator__max_depth": 10,
+            "estimator__min_samples_split": 5,
+            "estimator__n_estimators": 100
+        },
+        "training_time_sec": 42.592111110687256
+    },
+    "Gradient Boosting": {
+        "r2_score_test": 0.5675449443742169,
+        "r2_score_train": 0.5683083715810185,
+        "rmse": 31.417938807653737,
+        "mae": 21.63854334698361,
+        "mape": 0.3359770934355078,
+        "explained_variance": 0.5679572379603826,
+        "best_params": {
+            "estimator__learning_rate": 0.05,
+            "estimator__max_depth": 3,
+            "estimator__n_estimators": 100
+        },
+        "training_time_sec": 17.589677572250366
+    },
+    "Extra Trees": {
+        "r2_score_test": 0.5271630635758776,
+        "r2_score_train": 0.6600032323759433,
+        "rmse": 32.59029976793844,
+        "mae": 22.404422247154162,
+        "mape": 0.3376753262452747,
+        "explained_variance": 0.5281974423391048,
+        "best_params": {
+            "estimator__max_depth": 10,
+            "estimator__n_estimators": 100
+        },
+        "training_time_sec": 20.780951499938965
+    },
+    "XGBRegressor": {
+        "r2_score_test": 0.5675093336240097,
+        "r2_score_train": 0.5679612965216677,
+        "rmse": 31.416513061008644,
+        "mae": 21.634718267256417,
+        "mape": 0.33598974010205906,
+        "explained_variance": 0.5679052114302957,
+        "best_params": {
+            "estimator__learning_rate": 0.05,
+            "estimator__max_depth": 3,
+            "estimator__n_estimators": 100
+        },
+        "training_time_sec": 3.00462007522583
+    },
+    "Ridge": {
+        "r2_score_test": 0.5417317451202179,
+        "r2_score_train": 0.5315340505218378,
+        "rmse": 33.31489697930387,
+        "mae": 22.599829781620183,
+        "mape": 0.3220391588021484,
+        "explained_variance": 0.5429176214124348,
+        "best_params": {
+            "estimator__alpha": 10.0
+        },
+        "training_time_sec": 0.23238801956176758
+    },
+    "Lasso": {
+        "r2_score_test": 0.5411634697049462,
+        "r2_score_train": 0.5301577918359413,
+        "rmse": 33.30580375867407,
+        "mae": 22.599876289816994,
+        "mape": 0.3231816900548363,
+        "explained_variance": 0.5420623989994096,
+        "best_params": {
+            "estimator__alpha": 0.1
+        },
+        "training_time_sec": 0.26648473739624023
+    }
+}

@@ -9,3 +9,5 @@ ydata-profiling
 dill
 joblib
 ipykernel
+shap
+streamlit-option-menu

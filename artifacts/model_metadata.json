@@ -1,0 +1,15 @@
+{
+    "best_model_name": "Gradient Boosting",
+    "best_model_score": 0.5675449443742169,
+    "dataset_size_train": 6000,
+    "dataset_size_test": 1500,
+    "timestamp": "2026-02-13 23:51:01",
+    "targets": [
+        "Total_Customers",
+        "LPG_Usage_kg",
+        "Dosa_Sold",
+        "Idly_Sold",
+        "Vada_Sold",
+        "Puri_Sold"
+    ]
+}

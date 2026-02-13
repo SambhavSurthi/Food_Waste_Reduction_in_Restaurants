@@ -3,7 +3,24 @@ import sys
 import numpy as np 
 import pandas as pd
 import dill
+import json
 from src.exception import CustomException
+
+def save_json(file_path, obj):
+    try:
+        dir_path = os.path.dirname(file_path)
+        os.makedirs(dir_path, exist_ok=True)
+        with open(file_path, "w") as f:
+            json.dump(obj, f, indent=4)
+    except Exception as e:
+        raise CustomException(e, sys)
+
+def load_json(file_path):
+    try:
+        with open(file_path, "r") as f:
+            return json.load(f)
+    except Exception as e:
+        raise CustomException(e, sys)
 
 def save_object(file_path, obj):
     try:
