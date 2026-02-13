@@ -138,11 +138,14 @@ celerybeat.pid
 .env
 .envrc
 .venv
+.food_waste_reduction_venv
 env/
 venv/
+.food_waste_reduction_venv/
 ENV/
 env.bak/
 venv.bak/
+food_waste_reduction_venv.bak/
 
 # Spyder project settings
 .spyderproject
