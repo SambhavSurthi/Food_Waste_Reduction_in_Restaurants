@@ -85,7 +85,7 @@ with st.sidebar:
     
     st.markdown("---")
     st.info("🧠 **Model**: Multi-Output Regressor")
-    st.info("🙋 **Developer**: Sambhav Surthi")
+    # st.info("🙋 **Developer**: Sambhav Surthi")
     st.caption("v2.1.0 | Enterprise Edition")
 
 
@@ -98,7 +98,7 @@ if selected == "About Project":
     st.markdown("### 🏨 Restaurant Demand Forecasting System")
     st.markdown("A production-grade AI solution to predict daily footfall and item-wise sales, enabling data-driven inventory management.")
 
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Problem Statement", "Dataset & Features", "How It Works", "Tech Stack", "Results", "About Devveloper"])
+    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Problem Statement", "Dataset & Features", "How It Works", "Tech Stack", "Results", "About Developers"])
     
     with tab1:
         st.subheader("🚩 The Problem: Food Waste")
@@ -173,7 +173,6 @@ if selected == "About Project":
             st.info("Metrics will appear here after model training.")
 
     with tab6:
-        st.subheader("👨‍💻 About the Developer")
         
         c_dev1, c_dev2 = st.columns([1, 3])
         with c_dev1:
@@ -191,9 +190,9 @@ if selected == "About Project":
             """)
             
             st.markdown("#### 🛠️ Tech Arsenal")
-            st.caption("Python • SQL • TensorFlow • PyTorch • Scikit-Learn • Docker • AWS • Streamlit • FastAP")
+            st.caption("Python • SQL • TensorFlow • PyTorch • Scikit-Learn • Docker • AWS • Streamlit • FastAPI")
 
-        st.markdown("---")
+        
         st.markdown("""
         <div style="text-align: center;">
             <a href="https://www.sambhavsurthi.in/" style="text-decoration: none; margin-right: 20px;">🌐 Portfolio</a>
@@ -201,6 +200,61 @@ if selected == "About Project":
             <a href="https://github.com/SambhavSurthi" style="text-decoration: none;">🐙 GitHub</a>
         </div>
         """, unsafe_allow_html=True)
+        st.markdown("---")
+        
+        
+        c_dev1, c_dev2 = st.columns([1, 3])
+        with c_dev1:
+            # Placeholder profile icon
+            st.image("https://cdn-icons-png.flaticon.com/512/6997/6997668.png", width=150)
+            
+        with c_dev2:
+            st.markdown("### Jeenepally Adiseshu")
+            st.markdown("**Full Stack Data Scientist | Machine Learning Engineer**")
+            st.markdown("📍 *Generating code for Predictions based on pervious datasets*")
+            
+            st.markdown("""
+            passionate about building intelligent, multilingual solutions that solve real-world problems.
+            """)
+            
+            st.markdown("#### 🛠️ Tech Arsenal")
+            st.caption("Python | NLP | Machine Learning | Deep Learning |Scikit-learn|NLTK4")
+
+        
+        st.markdown("""
+        <div style="text-align: center;">
+            <a href="https://www.linkedin.com/in/jeenepallyadiseshu/" style="text-decoration: none; margin-right: 20px;">👔 LinkedIn</a>
+            <a href="https://www.linkedin.com/in/jeenepallyadiseshu/" style="text-decoration: none;">🐙 GitHub</a>
+        </div>
+        """, unsafe_allow_html=True)
+        st.markdown("---")
+        
+        
+        c_dev1, c_dev2 = st.columns([1, 3])
+        with c_dev1:
+            # Placeholder profile icon
+            st.image("https://cdn-icons-png.flaticon.com/512/6997/6997628.png", width=150)
+            
+        with c_dev2:
+            st.markdown("### Balaraju Jyothi Naga Sravani")
+            st.markdown("**Machine Learning Engineer**")
+            st.markdown("📍 *Building ML Solutions*")
+            
+            st.markdown("""
+             I am passionate about building intelligent, data-driven solutions using machine learning and NLP to solve real-world problems.
+            """)
+            
+            st.markdown("#### 🛠️ Tech Arsenal")
+            st.caption("Python | Machine Learning | NLP | Deep Learning | Scikit-learn | NLTK")
+
+        
+        st.markdown("""
+        <div style="text-align: center;">
+            <a href="https://www.linkedin.com/in/jyothi-naga-sravani-balaraju-15617431b" style="text-decoration: none; margin-right: 20px;">👔 LinkedIn</a>
+            <a href="https://github.com/Sravanibalaraju" style="text-decoration: none;">🐙 GitHub</a>
+        </div>
+        """, unsafe_allow_html=True)
+        st.markdown("---")
 
 # ---------------------------------------------------------
 # Page 1: Prediction & Simulation
